@@ -1,0 +1,30 @@
+{
+  "name": "belacomapi",
+  "version": "1.0.0",
+  "description": "Belacom RESTful api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsebaounFR/belacomApi.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "david sebaoun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsebaounFR/belacomApi/issues"
+  },
+  "homepage": "https://github.com/dsebaounFR/belacomApi#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.13.3"
+  }
+}
