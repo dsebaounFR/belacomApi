@@ -8,12 +8,11 @@ var express = require('express'),
 
 // mongoose instance connection url connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost/belacomdb'); 
 
+mongoose.connect('mongodb://admin:admin@ds161336.mlab.com:61336/belacomdb');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
 
 var routes = require('./api/routes/belacomRoutes'); //importing route
 routes(app); //register the route

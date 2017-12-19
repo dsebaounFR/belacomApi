@@ -4,8 +4,8 @@
   "description": "Belacom RESTful api",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "test": "mocha",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -22,9 +22,12 @@
   "homepage": "https://github.com/dsebaounFR/belacomApi#readme",
   "dependencies": {
     "express": "^4.16.2",
-    "mongoose": "^4.13.7"
+    "mongoose": "^4.13.7",
+    "mongoose-pages": "0.0.3"
   },
   "devDependencies": {
-    "nodemon": "^1.13.3"
+    "mocha": "^4.0.1",
+    "nodemon": "^1.13.3",
+    "supertest": "^3.0.0"
   }
 }
